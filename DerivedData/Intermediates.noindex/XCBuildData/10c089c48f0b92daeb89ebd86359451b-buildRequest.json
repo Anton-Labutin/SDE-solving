@@ -1,0 +1,51 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "45e4c503cc634403e1d7ae88217022bb4b1e17c7c63aff3215fa760b87b5e7c9"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/laa/prog/cm/SDE solving/DerivedData/Intermediates.noindex",
+      "buildProductsPath" : "/Users/laa/prog/cm/SDE solving/Build",
+      "derivedDataPath" : "/Users/laa/prog/cm/SDE solving/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/laa/prog/cm/SDE solving/DerivedData/SDE solving/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/laa/prog/cm/SDE solving/DerivedData/SDE solving/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/laa/prog/cm/SDE solving/DerivedData/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
